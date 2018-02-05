@@ -1,0 +1,9 @@
+version: '3.2'
+
+services:
+
+  kali-linux:
+    image: superzadeh/kali
+    build:
+      context: .
+      dockerfile: Kali.dockerfile
